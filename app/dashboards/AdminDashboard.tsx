@@ -21,7 +21,7 @@ export default function DebugUsersScreen() {
   }, []);
 
   return (
-    <View style={{ flex: 1, padding: 20 }}>
+    <View style={{ flex: 1, padding: 20, marginTop: 80 }}>
       <Text style={{ fontWeight: 'bold', fontSize: 18, marginBottom: 10 }}>All Users in DB:</Text>
       <FlatList
         data={users}
